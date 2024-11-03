@@ -62,3 +62,13 @@ pip3 install scikit-learn --break-system-packages
 ```
 lsusb
 ```
+
+## Instalação do Selenium
+```
+pip3 install selenium --break-system-packages
+```
+
+## Instalação da biblioteca PyMongo
+```
+pip3 install pymongo --break-system-packages
+```
