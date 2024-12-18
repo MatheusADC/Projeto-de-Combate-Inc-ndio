@@ -86,3 +86,6 @@ pip3 install selenium --break-system-packages
 ```
 pip3 install pymongo --break-system-packages
 ```
+
+## Novas funcionalidades
+Com o objetivo de assistir pessoas com deficiência visual e auditiva, pode-se implementar o uso de um Módulo Buzzer Ativo(5V) e de LEDs, respectivamente.
