@@ -1,4 +1,18 @@
 # Projeto de Combate ao Incêndio
+
+## Descrição
+O projeto tem como objetivo desenvolver um dispositivo inteligente para a detecção de chamas, integrando diferentes tecnologias para maior eficiência e precisão. O sistema utiliza um sensor infravermelho (IR) para a detecção física das chamas, complementado por uma webcam conectada a uma rede neural convolucional capaz de identificar visualmente imagens de incêndios. Além de enviar alertas pelo WhatsApp para os números cadastrados, o dispositivo é capaz de acionar automaticamente uma bomba de água, ampliando sua funcionalidade em situações de emergência.
+
+## Requisitos
+ - Raspberry Pi 5 Model B Anatel - 4GB 
+ - Mini Bomba D’água Submersiva 3-6V
+ - Módulo Relé 5V 1 Cana
+ - Kit Jumpers 20cm x120 Unidades
+ - Sensor de Chama Fogo 760 a 1100 nm
+ - Case Raspberry Pi 5 Oficial
+ - Cabo Micro HDMI 1,50 Metros
+ - Cartão de Memória 64GB MicroSd Kingston Classe 10 com Adaptador
+
 ## Instalação da biblioteca gpiod pelo shell do Linux
 ```
 sudo apt-get install -y gpiod
