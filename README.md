@@ -6,7 +6,8 @@ O projeto tem como objetivo desenvolver um dispositivo inteligente para a detec�
 ## Requisitos
  - Raspberry Pi 5 Model B Anatel - 4GB 
  - Mini Bomba D’água Submersiva 3-6V
- - Módulo Relé 5V 1 Cana
+ - Módulo Relé 5V 1 Canal
+ - Protoboard - 400 furos
  - Kit Jumpers 20cm x120 Unidades
  - Sensor de Chama Fogo 760 a 1100 nm
  - Case Raspberry Pi 5 Oficial
@@ -19,9 +20,26 @@ O projeto tem como objetivo desenvolver um dispositivo inteligente para a detec�
 <br>
 
 > [!CAUTION]
-> É importante destacar que a disposição do protótipo apresentado não reflete fielmente o resultado final, representando apenas uma das possíveis configurações. Isso se deve à dificuldade de encontrar simuladores gratuitos que ofereçam, de forma gráfica, suporte ao Raspberry Pi 5 e a outros componentes eletroeletrônicos.
+> É importante destacar que a imagen acima da disposição do protótipo apresentado não reflete fielmente o resultado final, representando apenas uma das possíveis configurações. Isso se deve à dificuldade de encontrar simuladores gratuitos que ofereçam, de forma gráfica, suporte ao Raspberry Pi 5 e a outros componentes eletroeletrônicos.
 
 <br>
+
+## Montagem do circuito
+### Pinout da Raspberry Pi 5
+![image](https://github.com/user-attachments/assets/267423cd-4968-404b-a3ab-0c3b1d964dd5)
+<br>
+
+1. Conecte uma extremidade do jumper no pino 2(5V) e a outra extremidade na porção positiva da protoboard;
+2. Conecte uma extremidade do jumper no pino 6(0V) e a outra extremidade na porção negativa da protoboard;
+3. Conecte uma extremidade do jumper no pino 38(GPIO 20) e a outra extremidade no pino S do relé;
+4. Conecte uma extremidade do jumper no pino + e a outra extremidade na porção positiva da protoboard;
+5. Conecte uma extremidade do jumper no pino - e a outra extremidade na porção negativa da protoboard;
+6. Conecte uma extremidade do jumper no pino 40(GPIO 21) e a outra extremidade no pino D0 do sensor IR;
+7. Conecte uma extremidade do jumper no pino GND do sensor IR e a outra extremidade na porção negativa da protoboard;
+8. Conecte uma extremidade do jumper no pino VCC do sensor IR e a outra extremidade na porção positiva da protoboard;
+9. Conecte uma extremidade do jumper na porta NO do relé e a outra extremidade positiva(fio vermelho) da minibomba de água;
+10. Conecte uma extremidade do jumper na porta COM do relé e a outra extremidade na porção positiva da protoboard;
+11. Conecte uma extremidade do jumper na extremidade negativa(fio preto) da minibomba de água e a outra extremidade na porção negativa da protoboard;
 
 ## Instalação da biblioteca gpiod pelo shell do Linux
 ```
