@@ -20,7 +20,7 @@ O projeto tem como objetivo desenvolver um dispositivo inteligente para a detec�
 <br>
 
 > [!CAUTION]
-> É importante destacar que a imagen acima da disposição do protótipo apresentado não reflete fielmente o resultado final, representando apenas uma das possíveis configurações. Isso se deve à dificuldade de encontrar simuladores gratuitos que ofereçam, de forma gráfica, suporte ao Raspberry Pi 5 e a outros componentes eletroeletrônicos.
+> É importante destacar que a imagem acima do protótipo apresentado não reflete fielmente o resultado final, representando apenas uma das possíveis configurações. Isso se deve à dificuldade de encontrar simuladores gratuitos que ofereçam, de forma gráfica, suporte ao Raspberry Pi 5 e a outros componentes eletroeletrônicos.
 
 <br>
 
@@ -32,8 +32,8 @@ O projeto tem como objetivo desenvolver um dispositivo inteligente para a detec�
 1. Conecte uma extremidade do jumper no pino 2(5V) e a outra extremidade na porção positiva da protoboard;
 2. Conecte uma extremidade do jumper no pino 6(0V) e a outra extremidade na porção negativa da protoboard;
 3. Conecte uma extremidade do jumper no pino 38(GPIO 20) e a outra extremidade no pino S do relé;
-4. Conecte uma extremidade do jumper no pino + e a outra extremidade na porção positiva da protoboard;
-5. Conecte uma extremidade do jumper no pino - e a outra extremidade na porção negativa da protoboard;
+4. Conecte uma extremidade do jumper no pino + do relé e a outra extremidade na porção positiva da protoboard;
+5. Conecte uma extremidade do jumper no pino - do relé e a outra extremidade na porção negativa da protoboard;
 6. Conecte uma extremidade do jumper no pino 40(GPIO 21) e a outra extremidade no pino D0 do sensor IR;
 7. Conecte uma extremidade do jumper no pino GND do sensor IR e a outra extremidade na porção negativa da protoboard;
 8. Conecte uma extremidade do jumper no pino VCC do sensor IR e a outra extremidade na porção positiva da protoboard;
