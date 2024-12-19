@@ -13,6 +13,16 @@ O projeto tem como objetivo desenvolver um dispositivo inteligente para a detec�
  - Cabo Micro HDMI 1,50 Metros
  - Cartão de Memória 64GB MicroSd Kingston Classe 10 com Adaptador
 
+## Prototipação
+![image](https://github.com/user-attachments/assets/ec15b02d-56f0-45f2-ab42-6bb226c082a8)
+
+<br>
+
+> [!CAUTION]
+> É importante destacar que a disposição do protótipo apresentado não reflete fielmente o resultado final, representando apenas uma das possíveis configurações. Isso se deve à dificuldade de encontrar simuladores gratuitos que ofereçam, de forma gráfica, suporte ao Raspberry Pi 5 e a outros componentes eletroeletrônicos.
+
+<br>
+
 ## Instalação da biblioteca gpiod pelo shell do Linux
 ```
 sudo apt-get install -y gpiod
