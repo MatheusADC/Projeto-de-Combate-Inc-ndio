@@ -20,7 +20,7 @@ import threading
 client = MongoClient("mongodb+srv://YOUR_MONGODB_INFO.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client["db"]
 colection = db["wppAutomatize"]
-document = colection.find_one({"_id": ObjectId("67255e0568b432025b6b101d")})
+document = colection.find_one({"_id": ObjectId("YOUR_OBJECT_ID")})
 
 # Configuração do GPIO
 chip = gpiod.Chip('gpiochip4')
