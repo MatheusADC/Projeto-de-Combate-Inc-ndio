@@ -14,7 +14,7 @@ O projeto tem como objetivo desenvolver um dispositivo inteligente para a detec�
  - Cabo Micro HDMI 1,50 Metros
  - Cartão de Memória 64GB MicroSd Kingston Classe 10 com Adaptador
 
-## Prototipação
+## Simulação Virtual
 ![image](https://github.com/user-attachments/assets/ec15b02d-56f0-45f2-ab42-6bb226c082a8)
 
 <br>
@@ -117,3 +117,13 @@ pip3 install pymongo --break-system-packages
 
 ## Novas funcionalidades
 Com o objetivo de assistir pessoas com deficiência visual e auditiva, pode-se implementar o uso de um Módulo Buzzer Ativo(5V) e de LEDs, respectivamente.
+
+## Prototipação
+### Imagem 1
+![image](https://github.com/user-attachments/assets/b8417b9a-54ac-41f3-98a2-28c40aee54c2)
+
+<br>
+
+### Imagem 2
+![image](https://github.com/user-attachments/assets/a6436af1-76c1-4280-8580-7d29a66a887f)
+
