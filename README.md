@@ -122,7 +122,7 @@ Com o objetivo de assistir pessoas com deficiência visual e auditiva, pode-se i
 ### Imagem 1
 ![image](https://github.com/user-attachments/assets/b8417b9a-54ac-41f3-98a2-28c40aee54c2)
 
-<br>
+<p>
 
 ### Imagem 2
 ![image](https://github.com/user-attachments/assets/a6436af1-76c1-4280-8580-7d29a66a887f)
