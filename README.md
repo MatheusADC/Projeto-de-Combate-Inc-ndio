@@ -113,6 +113,19 @@ pip3 install selenium --break-system-packages
 pip3 install pymongo --break-system-packages
 ```
 
+## Instalar e executar o MongoDB pelo terminal do Linux
+```
+sudo apt install mongodb
+sudo systemctl start mongod
+```
+
+## Instalar e executar o Mongo GUI (MongoCompass)
+```
+wget https://downloads.mongodb.com/compass/mongodb-compass_1.44.5_amd64.deb
+sudo apt install ./mongodb-compass_1.44.5_amd64.deb
+mongodb-compass
+```
+
 ## Novas funcionalidades
 Com o objetivo de assistir pessoas com deficiência visual e auditiva, pode-se implementar o uso de um Módulo Buzzer Ativo(5V) e de LEDs, respectivamente.
 
