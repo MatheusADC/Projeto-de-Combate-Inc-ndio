@@ -113,13 +113,13 @@ pip3 install selenium --break-system-packages
 pip3 install pymongo --break-system-packages
 ```
 
-## Instalar e executar o MongoDB pelo terminal do Linux
+## Instalação e execução do MongoDB pelo terminal do Linux
 ```
 sudo apt install mongodb
 sudo systemctl start mongod
 ```
 
-## Instalar e executar o Mongo GUI (MongoCompass)
+## Instalação e execução do Mongo GUI (MongoCompass)
 ```
 wget https://downloads.mongodb.com/compass/mongodb-compass_1.44.5_amd64.deb
 sudo apt install ./mongodb-compass_1.44.5_amd64.deb
